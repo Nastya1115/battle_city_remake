@@ -12,6 +12,12 @@ game_run = True
 WIN_SIZE = (500, 500)
 FPS = 120
 
+#константы
+RIGHT = 'right'
+LEFT = 'left'
+DOWN = 'down'
+UP = 'up'
+
 #окно
 window = display.set_mode(WIN_SIZE)
 display.set_caption("battle city remake") 
