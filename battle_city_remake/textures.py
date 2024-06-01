@@ -8,3 +8,7 @@
 #   и использовать их по несколько раз, не прописывая путь к текстуре каждый раз
 #
 #   списки с текстурами нужны для анимаций
+
+texture_player = "textures/temporarily_player.png"
+texture_bullet = "textures/temporarily_bullet.png"
+texture_block = "textures/temporarily_block.png"
