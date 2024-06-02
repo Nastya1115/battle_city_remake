@@ -13,13 +13,17 @@ while game_run:
 
         window.fill((0, 0, 0))
 
-        player.reset()
-        player.movement()
+        player.movement(block1)
         player.fire()
 
         for bullet in bullets:
              bullet.reset()
              bullet.movement()
+             if sprite.collide_rect(bullet, block1):
+                bullet.kill()
+
+        player.reset()
+        block1.reset()
 
     except Exception as e:
             print(str(e))

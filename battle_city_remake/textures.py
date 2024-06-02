@@ -9,6 +9,7 @@
 #
 #   списки с текстурами нужны для анимаций
 
-texture_player = "textures/temporarily_player.png"
-texture_bullet = "textures/temporarily_bullet.png"
-texture_block = "textures/temporarily_block.png"
+texture_player1 = "textures/player1.png"
+texture_player2 = "textures/player2.png"
+texture_bullet = "textures/bullet.png"
+texture_block = "textures/block.png"

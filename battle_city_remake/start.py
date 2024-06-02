@@ -3,11 +3,14 @@
 from pygame import *
 from textures import *
 
+font.init()
+
 clock = time.Clock()
 
 #переменные
 game_run = True
 bullets = list()
+timer_for_fire = 0
 
 #настройки
 WIN_SIZE = (500, 500)
