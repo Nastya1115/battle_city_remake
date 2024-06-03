@@ -1,9 +1,12 @@
 # этот модуль нужен для импорта остальных модулей, а также базовых настроек и переменных
-
+import logging
 from pygame import *
 from textures import *
 
 font.init()
+
+open('battle_city.log', 'w').close()
+logging.basicConfig(filename='battle_city.log', level=logging.INFO)
 
 clock = time.Clock()
 

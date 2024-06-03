@@ -15,12 +15,30 @@ class Destroy():
 #класс Change_image
 class Change_image():
     def change_image(self, image_file):
+        logging.info('Image changed')
         self.image = transform.scale(image.load(image_file), self.sprite_size)
+
+#класс ImageButton
+class ImageButton:
+    def __init__(self, x, y, width, height, text, image_path):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        self.text = text
+
+        self.image = image.load(image_path)
+        self.image = transform.scale(self.image, (width, height))
+        self.rect = self.image.get_rect(topleft=(x, y))
+
+    def draw(self, screen):
+        screen.blit(self.image, self.rect.topleft)
 
 #класс Block
 class Block(sprite.Sprite, Reset):
     def __init__(self, image_file, sprite_size, x, y, hp = 10):
         super().__init__()
+        logging.info('object created')
         self.sprite_size = sprite_size
         self.image = transform.scale(image.load(image_file), self.sprite_size)
         self.rect = self.image.get_rect()
@@ -30,8 +48,9 @@ class Block(sprite.Sprite, Reset):
 
 #класс Unit
 class Unit(sprite.Sprite, Reset):
-    def __init__(self, image_file, sprite_size, x, y, direction, speed = 2, damage = 5):
+    def __init__(self, image_file, sprite_size, x, y, direction, speed = 2, damage = 5, hp = 15):
         super().__init__()
+        logging.info('Unit created')
         self.sprite_size = sprite_size
         self.image = transform.scale(image.load(image_file), self.sprite_size)
         self.rect = self.image.get_rect()
@@ -39,12 +58,14 @@ class Unit(sprite.Sprite, Reset):
         self.rect.y = y
         self.speed = 2
         self.damage = 5
+        self.hp = 15
         self.direction = direction
 
 #класс Bullet
 class Bullet(Unit):
 
     def movement(self):
+        logging.info('move bullet')
         if self.direction == LEFT:
                 self.rect.x -= self.speed
         elif self.direction == RIGHT:
@@ -55,7 +76,7 @@ class Bullet(Unit):
                 self.rect.y += self.speed
 
 #класс Player
-class Player(Unit):
+class Player(Unit, Change_image):
 
     def movement(self, group):
         left_side = Rect(self.rect.left - 1, self.rect.top, 1, self.rect.height)
@@ -65,28 +86,37 @@ class Player(Unit):
 
         keys_pressed = key.get_pressed()
         if keys_pressed[K_a] and not left_side.colliderect(group):
+            self.change_image(texture_player1_right)
             self.direction = LEFT
             self.rect.x -= self.speed
+            logging.info('move player left')
         elif keys_pressed[K_d] and not right_side.colliderect(group):
+            self.change_image(texture_player1_left)
             self.direction = RIGHT
             self.rect.x += self.speed
+            logging.info('move player right')
         elif keys_pressed[K_w] and not top_side.colliderect(group):
+            self.change_image(texture_player1)
             self.direction = UP
             self.rect.y -= self.speed
+            logging.info('move player up')
         elif keys_pressed[K_s] and not bottom_side.colliderect(group):
+            self.change_image(texture_player1_down)
             self.direction = DOWN
             self.rect.y += self.speed
+            logging.info('move player down')
 
     def fire(self):
         global timer_for_fire
         keys_pressed = key.get_pressed()
         if keys_pressed[K_SPACE] and timer_for_fire >= 30:
-            if self.direction == RIGHT:
-                bullets.append(Bullet(texture_bullet, (50, 50), self.rect.x, self.rect.y, RIGHT))
-            elif self.direction == LEFT:
-                bullets.append(Bullet(texture_bullet, (50, 50), self.rect.x, self.rect.y, LEFT))
+            logging.info('player atack')
+            if self.direction == LEFT:
+                bullets.append(Bullet(texture_bullet_right, (50, 50), self.rect.x, self.rect.y, LEFT))
+            elif self.direction == RIGHT:
+                bullets.append(Bullet(texture_bullet_left, (50, 50), self.rect.x, self.rect.y, RIGHT))
             elif self.direction == DOWN:
-                bullets.append(Bullet(texture_bullet, (50, 50), self.rect.x, self.rect.y, DOWN))
+                bullets.append(Bullet(texture_bullet_down, (50, 50), self.rect.x, self.rect.y, DOWN))
             elif self.direction == UP:
                 bullets.append(Bullet(texture_bullet, (50, 50), self.rect.x, self.rect.y, UP))
             timer_for_fire = 0
@@ -95,6 +125,7 @@ class Player(Unit):
 #класс Enemy
 class Enemy(Unit, Destroy):
     def movement(self):
+        logging.info('move enemy')
         pass
 
 player = Player(texture_player1, (50, 50), 100, 100, RIGHT)
