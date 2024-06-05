@@ -20,6 +20,7 @@ WIN_SIZE = (500, 500)
 FPS = 120
 
 #константы
+SPRITE_SIZE = (50, 50)
 RIGHT = 'right'
 LEFT = 'left'
 DOWN = 'down'

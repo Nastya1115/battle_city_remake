@@ -1,7 +1,7 @@
 # ! основное игровое меню
 # здесь будут обьеденяться уровни и менюшка
 
-from classes import *
+from map import *
 
 # Основные переменные
 game_in_system = True
@@ -57,15 +57,17 @@ while game_in_system:
         if lvl_1:
             
             window.fill(Game_screen)
-            player.movement(block1)
+            player.movement(blocks)
             player.fire()
             
+            for block in blocks:
+                block.reset()
+
             for bullet in bullets:
                 bullet.reset()
                 bullet.movement()
 
             player.reset()
-            block1.reset()
             settings_button.draw(window)
             
         if paused:

@@ -85,22 +85,22 @@ class Player(Unit, Change_image):
         bottom_side = Rect(self.rect.left, self.rect.bottom, self.rect.width, 1)
 
         keys_pressed = key.get_pressed()
-        if keys_pressed[K_a] and not left_side.colliderect(group):
+        if keys_pressed[K_a] and not left_side.collidelistall(group):
             self.change_image(texture_player1_right)
             self.direction = LEFT
             self.rect.x -= self.speed
             logging.info('move player left')
-        elif keys_pressed[K_d] and not right_side.colliderect(group):
+        elif keys_pressed[K_d] and not right_side.collidelistall(group):
             self.change_image(texture_player1_left)
             self.direction = RIGHT
             self.rect.x += self.speed
             logging.info('move player right')
-        elif keys_pressed[K_w] and not top_side.colliderect(group):
+        elif keys_pressed[K_w] and not top_side.collidelistall(group):
             self.change_image(texture_player1)
             self.direction = UP
             self.rect.y -= self.speed
             logging.info('move player up')
-        elif keys_pressed[K_s] and not bottom_side.colliderect(group):
+        elif keys_pressed[K_s] and not bottom_side.collidelistall(group):
             self.change_image(texture_player1_down)
             self.direction = DOWN
             self.rect.y += self.speed
@@ -128,6 +128,4 @@ class Enemy(Unit, Destroy):
         logging.info('move enemy')
         pass
 
-player = Player(texture_player1, (50, 50), 100, 100, RIGHT)
-
-block1 = Block(texture_block, (50, 50), 200, 200)
+#block1 = Block(texture_block, (50, 50), 200, 200)
