@@ -87,6 +87,7 @@ while game_in_system:
                             enemies.remove(enemy)
 
             #перезагрузка врага
+
             for enemy in enemies:
                 enemy.movement(blocks)
                 enemy.reset()
@@ -98,6 +99,11 @@ while game_in_system:
 
             #перезагрузка блоков
             for block in blocks:
+                x = randint(0, WIN_SIZE[0] - SPRITE_SIZE[0])
+                y = randint(0, WIN_SIZE[1]  - SPRITE_SIZE[1])
+                help_rect = Rect(x, y, SPRITE_SIZE[0], SPRITE_SIZE[1])
+                if len(enemies) < 2 and not help_rect.collidelistall(blocks):
+                    enemies.append(choice(((silver_factory.create_enemy(silver_tank, SPRITE_SIZE, x, y, RIGHT)), (gold_factory.create_enemy(gold_tank, SPRITE_SIZE, x, y, RIGHT)))))
                 block.reset()
 
             settings_button.draw(window)

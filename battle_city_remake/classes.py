@@ -142,7 +142,7 @@ class Player(Unit, Change_image):
     def fire(self):
         global timer_for_fire
         keys_pressed = key.get_pressed()
-        if keys_pressed[K_SPACE] and timer_for_fire >= 30:
+        if keys_pressed[K_SPACE] and timer_for_fire >= 60:
             logging.info('player atack')
             if self.direction == LEFT:
                 bullets.append(Bullet(texture_bullet_right, (50, 50), self.rect.x, self.rect.y, LEFT, FRIENDLY))

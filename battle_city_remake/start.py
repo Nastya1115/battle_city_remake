@@ -2,7 +2,7 @@
 import logging
 from pygame import *
 from textures import *
-from random import choice
+from random import choice, randint
 from abc import ABC, abstractmethod
 
 
