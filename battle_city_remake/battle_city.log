@@ -1,3890 +1,1256 @@
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
 INFO:root:Unit created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
-INFO:root:object created
+INFO:root:Unit created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Unit created
+INFO:root:Unit created
+INFO:root:Unit created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
+INFO:root:Block created
 INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:Unit created
+INFO:root:Unit created
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:Unit created
+INFO:root:Unit created
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:Unit created
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:Unit created
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player right
 INFO:root:Image changed
+INFO:root:Image changed
 INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player right
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:Unit created
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:Unit created
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:player atack
+INFO:root:Unit created
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:Unit created
+INFO:root:Unit created
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
 INFO:root:Image changed
-INFO:root:move player up
+INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
-INFO:root:move player left
 INFO:root:Image changed
 INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player down
 INFO:root:Image changed
-INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player down
 INFO:root:Image changed
-INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player down
 INFO:root:Image changed
-INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player down
 INFO:root:Image changed
-INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player down
 INFO:root:Image changed
-INFO:root:move player down
+INFO:root:move bullet
+INFO:root:move bullet
 INFO:root:Image changed
-INFO:root:move player down
 INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player left
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player up
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player right
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down
-INFO:root:Image changed
-INFO:root:move player down

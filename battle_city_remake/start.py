@@ -2,13 +2,17 @@
 import logging
 from pygame import *
 from textures import *
+from random import choice
+from abc import ABC, abstractmethod
+
 
 font.init()
 
+clock = time.Clock()
+
+#логги
 open('battle_city.log', 'w').close()
 logging.basicConfig(filename='battle_city.log', level=logging.INFO)
-
-clock = time.Clock()
 
 #переменные
 game_run = True
@@ -21,6 +25,8 @@ FPS = 120
 
 #константы
 SPRITE_SIZE = (50, 50)
+FRIENDLY = 'players'
+NOT_FRIENDLY = 'enemys'
 RIGHT = 'right'
 LEFT = 'left'
 DOWN = 'down'

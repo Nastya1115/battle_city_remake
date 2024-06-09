@@ -17,7 +17,7 @@ settings_screen  = (128, 128, 128)
 # создание кнопок
 play_button = ImageButton(WIN_SIZE[0]/2 - 100, 120, 202, 83, "", "textures/182.png")
 quit_button = ImageButton(WIN_SIZE[0]/2 - 100, 270, 202, 83, "", "textures/181.png")
-settings_button = ImageButton(0, 0, 202, 83, "", "textures/183.png")
+settings_button = ImageButton(0, 0, 150, 55, "", "textures/183.png")
 continue_button = ImageButton(250, 400, 282, 83, "", "textures/184.png")
 exit_button = ImageButton(0, 400, 202, 83, "", "textures/185.png")
 
@@ -32,7 +32,7 @@ while game_in_system:
         if events.type == QUIT:
             game_in_system = False
             
-   
+        #нажатие на кнопок в меню
         if events.type == MOUSEBUTTONDOWN:
             if play_button.rect.collidepoint(events.pos):
                 lvl_1 = True
@@ -49,27 +49,60 @@ while game_in_system:
                 paused = False
 
     try:
+        #основное меню
         window.fill(Main_screen)
         play_button.draw(window)
         quit_button.draw(window)
         window.blit(text_font, text_rect)
 
+        #уровень 1
         if lvl_1:
             
             window.fill(Game_screen)
+
+            #перезагрузка пуль
+            for bullet in bullets:
+                bullet.movement()
+                bullet.reset()
+
+                #проверка на столкновение пуль с обьектами
+                #проверка пули и игрока
+                if bullet.rect.colliderect(player) and bullet.bullet_type == NOT_FRIENDLY:
+                    if player.hp >= 1:
+                        bullets.remove(bullet)
+                        player.hp -= bullet.damage  
+                    elif player.hp <= 0:
+                        bullets.remove(bullet)
+                #проверка пули и блоков
+                elif bullet.rect.collidelistall(blocks):
+                    bullets.remove(bullet)
+                #проверка пули и врага
+                for enemy in enemies:
+                    if bullet.rect.colliderect(enemy) and bullet.bullet_type == FRIENDLY:
+                        if enemy.hp >= 1:
+                            bullets.remove(bullet)
+                            enemy.hp -= bullet.damage
+                        elif enemy.hp <= 0:
+                            bullets.remove(bullet)
+                            enemies.remove(enemy)
+
+            #перезагрузка врага
+            for enemy in enemies:
+                enemy.movement(blocks)
+                enemy.reset()
+
+            #перезагрузка игрока
             player.movement(blocks)
             player.fire()
-            
+            player.reset()
+
+            #перезагрузка блоков
             for block in blocks:
                 block.reset()
 
-            for bullet in bullets:
-                bullet.reset()
-                bullet.movement()
-
-            player.reset()
             settings_button.draw(window)
             
+        #пауза
         if paused:
             window.fill(settings_screen)
             game_text_font = font.render("Настройки", True, (50,50,50))
@@ -78,6 +111,7 @@ while game_in_system:
             exit_button.draw(window)
             window.blit(game_text_font, game_text_rect)
         
+        #меню
         if in_menu:
             window.fill(Main_screen)
             play_button.draw(window)
@@ -85,6 +119,7 @@ while game_in_system:
             window.blit(text_font, text_rect)
 
         
+    #хз как назвать
     except Exception as e:
         print(str(e))
     display.update()
