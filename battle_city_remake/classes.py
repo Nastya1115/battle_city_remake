@@ -2,6 +2,10 @@
 
 from start import *
 
+#
+#       ВСПОМАГАТЕЛЬНЫЕ КЛАССЫ
+#
+
 #класс Reset
 class Reset():
     def reset(self):
@@ -12,39 +16,60 @@ class Change_image():
     def change_image(self, image_file):
         logging.info('Image changed')
         self.image = transform.scale(image.load(image_file), self.sprite_size)
+        
+#класс Animation
+class Animation(Change_image):
+    def animation(self, list):
+            if self.index < len(list) - 1:
+                self.index += 1
+                self.change_image(list[self.index])
+            else:
+                self.index = 0
 
-#класс Enemy_movement
-class Basic_Enemy():
-    def move(self, group, images):
-        #обозначение сторон хитбокса
-        self.left_side = Rect(self.rect.left - 1, self.rect.top, 1, self.rect.height)
-        self.right_side = Rect(self.rect.right, self.rect.top, 1, self.rect.height)
-        self.top_side = Rect(self.rect.left, self.rect.top - 1, self.rect.width, 1)
-        self.bottom_side = Rect(self.rect.left, self.rect.bottom, self.rect.width, 1)
+#
+#       ОСНОВНЫЕ КЛАССЫ
+#
 
-        #движение
-        if self.direction == LEFT  and not self.left_side.collidelistall(group):
-            self.rect.x -= self.speed
-            self.change_image(images[1])
-        elif self.direction == RIGHT  and not self.right_side.collidelistall(group):
-            self.rect.x += self.speed
-            self.change_image(images[3])
-        elif self.direction == UP  and not self.top_side.collidelistall(group):
-            self.rect.y -= self.speed
-            self.change_image(images[0])
-        elif self.direction == DOWN  and not self.bottom_side.collidelistall(group):
-            self.rect.y += self.speed
-            self.change_image(images[2])
+#класс Counter
+class Counter(sprite.Sprite):
+    def __init__(self):
+        self.killed = 0
 
-    def fire(self):
-        if self.direction == LEFT:
-            bullets.append(Bullet(texture_bullet_right, (50, 50), self.rect.x, self.rect.y, LEFT, NOT_FRIENDLY))
-        elif self.direction == RIGHT:
-            bullets.append(Bullet(texture_bullet_left, (50, 50), self.rect.x, self.rect.y, RIGHT, NOT_FRIENDLY))
-        elif self.direction == DOWN:
-            bullets.append(Bullet(texture_bullet_down, (50, 50), self.rect.x, self.rect.y, DOWN, NOT_FRIENDLY))
-        elif self.direction == UP:
-            bullets.append(Bullet(texture_bullet, (50, 50), self.rect.x, self.rect.y, UP, NOT_FRIENDLY))
+    def reset(self, player):
+        self.enemies_killed = font.render(f"Убито врагов: {self.killed}", True, (255,255,255))
+        self.player_hp = font.render(f"Здоровье: {player.hp}", True, (255,255,255))
+
+        window.blit(self.enemies_killed, (WIN_SIZE[0] - 200, 0))
+        window.blit(self.player_hp, (WIN_SIZE[0] - 200, 30))
+
+#класс Explosion
+class Explosion(sprite.Sprite, Change_image, Reset):
+    def __init__(self, x, y, image_file = explosion1, index = 0, sprite_size = SPRITE_SIZE):
+        super().__init__()
+        self.sprite_size = SPRITE_SIZE
+        self.image = transform.scale(image.load(explosion1), self.sprite_size)
+        self.rect = self.image.get_rect()
+        self.rect.x = x
+        self.rect.y = y
+        self.index = 0
+
+    def animation(self):
+        if self.index < len(explosions) - 1:
+            self.index += 1
+            self.change_image(explosions[self.index])
+        else:
+            effects.remove(self)
+
+#класс GameObject
+class GameObject(sprite.Sprite, Reset):
+    def __init__(self, image_file, sprite_size, x, y):
+        super().__init__()
+        logging.info('Unit created')
+        self.sprite_size = sprite_size
+        self.image = transform.scale(image.load(image_file), self.sprite_size)
+        self.rect = self.image.get_rect()
+        self.rect.x = x
+        self.rect.y = y
 
 #класс ImageButton
 class ImageButton():
@@ -63,104 +88,121 @@ class ImageButton():
         screen.blit(self.image, self.rect.topleft)
 
 #класс Block
-class Block(sprite.Sprite, Reset):
-    def __init__(self, image_file, sprite_size, x, y, hp = 10):
-        super().__init__()
-        logging.info('Block created')
-        self.sprite_size = sprite_size
-        self.image = transform.scale(image.load(image_file), self.sprite_size)
-        self.rect = self.image.get_rect()
-        self.rect.x = x
-        self.rect.y = y
-        self.hp = 10
+class Block(GameObject):
+    def __init__(self, x, y, image_file, sprite_size, hp = 10):
+        super().__init__(image_file, sprite_size, x, y)
+        self.hp = hp
+
+#
+#       КЛАССЫ ДВИГАЮЩИХСЯ ОБЬЕКТОВ
+#
 
 #класс Unit
-class Unit(sprite.Sprite, Reset):
-    def __init__(self, image_file, sprite_size, x, y, direction, speed = 2, damage = 5, hp = 15):
-        super().__init__()
-        logging.info('Unit created')
-        self.sprite_size = sprite_size
-        self.image = transform.scale(image.load(image_file), self.sprite_size)
-        self.rect = self.image.get_rect()
-        self.rect.x = x
-        self.rect.y = y
-        self.speed = 2
-        self.damage = 5
-        self.hp = 15
+class Unit(GameObject):
+    def __init__(self, x, y, image_file, sprite_size, direction, speed = 2, damage = 5, hp = 15, index = 0):
+        super().__init__(image_file, sprite_size, x, y)
+        self.speed = speed
+        self.damage = damage
+        self.hp = hp
         self.direction = direction
+        self.index = 0
 
 #класс Bullet
 class Bullet(Unit):
-    def __init__(self, image_file, sprite_size, x, y, direction, bullet_type, speed = 2, damage = 5, hp = 15):
-        super().__init__(image_file, sprite_size, x, y, direction, speed, damage, hp)    
+    def __init__(self, x, y, image_file, sprite_size, direction, bullet_type, speed = 2, damage = 5, hp = 1):
+        super().__init__(x, y, image_file, sprite_size, direction, speed, damage, hp)
         self.bullet_type = bullet_type
 
     def movement(self):
-        logging.info('move bullet')
         if self.direction == LEFT:
-                self.rect.x -= self.speed
+            self.rect.x -= self.speed
         elif self.direction == RIGHT:
-                self.rect.x += self.speed
+            self.rect.x += self.speed
         elif self.direction == UP:
-                self.rect.y -= self.speed
+            self.rect.y -= self.speed
         elif self.direction == DOWN:
-                self.rect.y += self.speed  
+            self.rect.y += self.speed
 
 #класс Player
-class Player(Unit, Change_image):
-
+class Player(Unit, Animation):
     def movement(self, group):
-        #обозначение сторон хитбокса
+        # обозначение сторон хитбокса
         self.left_side = Rect(self.rect.left - 1, self.rect.top, 1, self.rect.height)
         self.right_side = Rect(self.rect.right, self.rect.top, 1, self.rect.height)
         self.top_side = Rect(self.rect.left, self.rect.top - 1, self.rect.width, 1)
         self.bottom_side = Rect(self.rect.left, self.rect.bottom, self.rect.width, 1)
 
-        #нажатие на кнопки и движение
+        # нажатие на кнопки и движение
         keys_pressed = key.get_pressed()
         if keys_pressed[K_a] and not self.left_side.collidelistall(group):
-            self.change_image(texture_player1_right)
+            self.animation(player_left)
             self.direction = LEFT
             self.rect.x -= self.speed
-            logging.info('move player left')
         elif keys_pressed[K_d] and not self.right_side.collidelistall(group):
-            self.change_image(texture_player1_left)
+            self.animation(player_right)
             self.direction = RIGHT
             self.rect.x += self.speed
-            logging.info('move player right')
         elif keys_pressed[K_w] and not self.top_side.collidelistall(group):
-            self.change_image(texture_player1)
+            self.animation(player_up)
             self.direction = UP
             self.rect.y -= self.speed
-            logging.info('move player up')
         elif keys_pressed[K_s] and not self.bottom_side.collidelistall(group):
-            self.change_image(texture_player1_down)
+            self.animation(player_down)
             self.direction = DOWN
             self.rect.y += self.speed
-            logging.info('move player down')
 
     def fire(self):
         global timer_for_fire
         keys_pressed = key.get_pressed()
         if keys_pressed[K_SPACE] and timer_for_fire >= 60:
-            logging.info('player atack')
             if self.direction == LEFT:
-                bullets.append(Bullet(texture_bullet_right, (50, 50), self.rect.x, self.rect.y, LEFT, FRIENDLY))
+                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_right, (50, 50), LEFT, FRIENDLY))
             elif self.direction == RIGHT:
-                bullets.append(Bullet(texture_bullet_left, (50, 50), self.rect.x, self.rect.y, RIGHT, FRIENDLY))
+                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_left, (50, 50), RIGHT, FRIENDLY))
             elif self.direction == DOWN:
-                bullets.append(Bullet(texture_bullet_down, (50, 50), self.rect.x, self.rect.y, DOWN, FRIENDLY))
+                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_down, (50, 50), DOWN, FRIENDLY))
             elif self.direction == UP:
-                bullets.append(Bullet(texture_bullet, (50, 50), self.rect.x, self.rect.y, UP, FRIENDLY))
+                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet, (50, 50), UP, FRIENDLY))
             timer_for_fire = 0
         timer_for_fire += 1
+             
+#класс Basic_Enemy
+class Basic_Enemy(Unit, Animation):
+    def move(self, group, images_up, images_down, images_left, images_right):
+        self.left_side = Rect(self.rect.left - 1, self.rect.top, 1, self.rect.height)
+        self.right_side = Rect(self.rect.right, self.rect.top, 1, self.rect.height)
+        self.top_side = Rect(self.rect.left, self.rect.top - 1, self.rect.width, 1)
+        self.bottom_side = Rect(self.rect.left, self.rect.bottom, self.rect.width, 1)
+
+        if self.direction == LEFT and not self.left_side.collidelistall(group):
+            self.rect.x -= self.speed
+            self.animation(images_left)
+        elif self.direction == RIGHT and not self.right_side.collidelistall(group):
+            self.rect.x += self.speed
+            self.animation(images_right)
+        elif self.direction == UP and not self.top_side.collidelistall(group):
+            self.rect.y -= self.speed
+            self.animation(images_up)
+        elif self.direction == DOWN and not self.bottom_side.collidelistall(group):
+            self.rect.y += self.speed
+            self.animation(images_down)
+
+    def fire(self):
+        if self.direction == LEFT:
+            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_right, (50, 50), LEFT, NOT_FRIENDLY))
+        elif self.direction == RIGHT:
+            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_left, (50, 50), RIGHT, NOT_FRIENDLY))
+        elif self.direction == DOWN:
+            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_down, (50, 50), DOWN, NOT_FRIENDLY))
+        elif self.direction == UP:
+            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet, (50, 50), UP, NOT_FRIENDLY))
 
 #
-#       АБСТРАКТНЫЕ КЛАССЫ
+#       КЛАССЫ ВРАГОВ
 #
 
 # Абстрактный класс врага
-class Enemy(ABC, Unit, Change_image, Basic_Enemy):
+class Enemy(ABC, Basic_Enemy):
     def __init__(self, image_file, sprite_size, x, y, direction, timer = 0, speed = 2, damage = 5, hp = 15):
         super().__init__(image_file, sprite_size, x, y, direction, speed, damage, hp)
         self.timer = 0
@@ -174,7 +216,7 @@ class EnemySilver(Enemy):
 
     def movement(self, group):  
 
-        self.move(group, silver_tanks)
+        self.move(group, silver_tank_up, silver_tank_down, silver_tank_left, silver_tank_right)
 
         if self.timer == 60:
             self.direction = choice((LEFT, RIGHT))
@@ -187,7 +229,7 @@ class EnemyGold(Enemy):
 
     def movement(self, group):  
 
-        self.move(group, gold_tanks)
+        self.move(group, gold_tank_up, gold_tank_down, gold_tank_left, gold_tank_right)
 
         if self.timer == 60:
             self.direction = choice((LEFT, RIGHT, UP, DOWN))
@@ -200,7 +242,7 @@ class EnemyDiamond(Enemy):
 
     def movement(self, group):  
 
-        self.move(group, gold_tanks)
+        self.move(group, gold_tank_left, gold_tank_down, gold_tank_left, gold_tank_right)
 
         if self.timer == 60:
             self.direction = choice((LEFT, RIGHT, UP, DOWN))
@@ -234,7 +276,7 @@ class DiamondEnemyFactory(EnemyFactory):
         return EnemyDiamond(image_file, sprite_size, x, y, direction)
     
 
-#фабрики
+#сами фабрики
 silver_factory = SilverEnemyFactory()
 gold_factory = GoldEnemyFactory()
 diamond_factory = DiamondEnemyFactory()
