@@ -52,7 +52,7 @@ DOWN = 'down'
 UP = 'up'
 
 #цвета
-MAIN_SCREEN = (255, 0, 0)		
+MAIN_SCREEN = (0, 0, 0)		
 GAME_SCREEN = (0, 0, 0)			
 SETTINGS_SCREEN = (128, 128, 128)
 
@@ -62,5 +62,5 @@ display.set_caption("battle city remake")
 
 # настройки шрифта
 font = font.Font(None, 36)
-text_font = font.render("Main screen", True, (255,255,255))
+text_font = font.render(" ", True, (255,255,255))
 text_rect = text_font.get_rect(center=(400,50))

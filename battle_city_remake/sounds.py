@@ -1,2 +1,5 @@
 move_sound = 'sounds/move.mp3'
 attack_sound = 'sounds/attack.mp3'
+finish_sound = 'sounds/finish_sound.mp3'
+default_sound = 'sounds/default.mp3'
+explosion_sound = 'sounds/explosion.mp3'

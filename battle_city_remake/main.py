@@ -12,13 +12,12 @@ while run:
         if events.type == MOUSEBUTTONDOWN:
             if play_button.rect.collidepoint(events.pos):
                 current_scene = current_map
+            elif continue_button.rect.collidepoint(events.pos):
+                current_scene = current_map
             elif quit_button.rect.collidepoint(events.pos) or quit_button_for_game_over_and_win.rect.collidepoint(events.pos):
                 run = False
             elif settings_button.rect.collidepoint(events.pos):
                 current_scene = 1
-            elif continue_button.rect.collidepoint(events.pos):
-                current_scene = current_map
-                print('1')
             elif exit_button.rect.collidepoint(events.pos):
                 current_map = 4
                 scenes[current_map].reset_level(scenes[current_map].level)

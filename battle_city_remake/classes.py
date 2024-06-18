@@ -138,25 +138,25 @@ class Player(Unit, Animation):
         # нажатие на кнопки и движение
         keys_pressed = key.get_pressed()
         if keys_pressed[K_a] and not self.left_side.collidelistall(group):
-            music_play(move_sound, 0.5)
+            music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_left)
             self.direction = LEFT
             self.rect.x -= self.speed
         elif keys_pressed[K_d] and not self.right_side.collidelistall(group):
-            music_play(move_sound, 0.5)
+            music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_right)
             self.direction = RIGHT
             self.rect.x += self.speed
         elif keys_pressed[K_w] and not self.top_side.collidelistall(group):
-            music_play(move_sound, 0.5)
+            music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_up)
             self.direction = UP
             self.rect.y -= self.speed
         elif keys_pressed[K_s] and not self.bottom_side.collidelistall(group):
-            music_play(move_sound, 0.5)
+            music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_down)
             self.direction = DOWN
@@ -200,7 +200,6 @@ class Basic_Enemy(Unit, Animation):
             self.animation(images_down)
 
     def fire(self, damage):
-        music_play(attack_sound, 0.1)
         if self.direction == LEFT:
             bullets.append(Bullet(self.rect.x, self.rect.y + SPRITE_SIZE[1] / 2 - BULLET_SIZE[1] / 2, texture_bullet_right, BULLET_SIZE, LEFT, NOT_FRIENDLY, damage))
         elif self.direction == RIGHT:
@@ -248,7 +247,7 @@ class EnemyGold(Enemy):
         if self.timer == 60:
             self.direction = choice((LEFT, RIGHT, UP, DOWN))
             self.timer = 0
-            self.fire(5)
+            self.fire(3)
         self.timer += 1
         
 

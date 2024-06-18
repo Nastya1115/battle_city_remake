@@ -5,7 +5,6 @@
 #   texture_name = "папка1/папка2/текстура.png"
 
 
-
 #-----------------BLOCKS-----------------
 texture_block = "textures/block.png"
 

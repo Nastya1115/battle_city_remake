@@ -1,16 +1,19 @@
 from map import *
 
 #создание кнопок
-play_button = ImageButton(WIN_SIZE[0]/2 - 100, 120, 202, 83, "", "textures/buttons/play.png")
-quit_button = ImageButton(WIN_SIZE[0]/2 - 100, 270, 202, 83, "", "textures/buttons/quit.png")
-settings_button = ImageButton(0, 0, 150, 55, "", "textures/buttons/settings.png")
+play_button = ImageButton(WIN_SIZE[0]/2 - 100, 270, 202, 83, "", "textures/buttons/play.png")
+quit_button = ImageButton(WIN_SIZE[0]/2 - 100, 420, 202, 83, "", "textures/buttons/exit.png")
+settings_button = ImageButton(0, 0, 150, 55, "", "textures/buttons/pause.png")
 continue_button = ImageButton(550, 500, 282, 83, "", "textures/buttons/continue.png")
-exit_button = ImageButton(0, 500, 202, 83, "", "textures/buttons/exit.png")
-quit_button_for_game_over_and_win = ImageButton(600, 500, 200, 83, "", "textures/buttons/quit.png")
-restart_button = ImageButton(300, 500, 202, 83, "", "textures/buttons/restart.png")
+exit_button = ImageButton(0, 500, 202, 83, "", "textures/buttons/home.png")
+quit_button_for_game_over_and_win = ImageButton(600, 500, 200, 83, "", "textures/buttons/exit.png")
+restart_button = ImageButton(300, 500, 202, 83, "", "textures/buttons/replay.png")
 
-#silver = silver_factory.create_enemy(x, y, silver_tank_1_right, SPRITE_SIZE, RIGHT, 5)
-#gold = gold_factory.create_enemy(x, y, gold_tank_1_right, SPRITE_SIZE, RIGHT, 10)
+
+# создание фона
+main_fon = transform.scale(image.load("textures/fons/play_1.png"), (250,250))
+game_over_fon = transform.scale(image.load("textures/fons/game_over_fon.png"), (250,250))
+
 
 #отдельный абстрактный класс Scene
 class Scene(ABC):
@@ -29,6 +32,7 @@ class Menu(Scene):
     
     def draw(self, window):
         window.fill(self.main_screen)
+        window.blit(main_fon, (280,0))
         self.play_button.draw(window)
         self.quit_button.draw(window)
         window.blit(self.text_font, self.text_rect)
@@ -56,12 +60,11 @@ class Game_Over(Scene):
     
     def draw(self, window):
         window.fill(GAME_SCREEN)
-        game_text_font = font.render("GAME OVER!", True, (255,0,0))
-        game_text_rect = game_text_font.get_rect(center=(WIN_SIZE[0] // 2, WIN_SIZE[1] // 2))
+        window.blit(game_over_fon, (300,100))
+        music_play(finish_sound, 0.1)
         self.exit_button.draw(window)
         self.restart_button.draw(window)
         self.quit_button_for_game_over_and_win.draw(window)
-        window.blit(game_text_font, game_text_rect)
       
 class Win(Scene):
     def __init__(self):
@@ -73,6 +76,7 @@ class Win(Scene):
     
     def draw(self, window):
         window.fill(self.finish_screen_win)
+        music_play(default_sound, 0.1)
         game_text_font = font.render("YOU COMPLETED THE GAME!", True, (0,255,0))
         game_text_rect = game_text_font.get_rect(center=(WIN_SIZE[0] // 2, WIN_SIZE[1] // 2))
         self.exit_button.draw(window)
@@ -151,6 +155,7 @@ class Level(Scene):
                     elif enemy.hp <= 0 and enemy in self.enemies:
                         bullets.remove(bullet)
                         self.enemies.remove(enemy)
+                        music_play(explosion_sound, 0.5)
                         self.counter.killed += 1
                         effects.append(Explosion(enemy.rect.x, enemy.rect.y))
 
