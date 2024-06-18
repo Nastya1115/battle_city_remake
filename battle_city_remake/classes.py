@@ -35,12 +35,13 @@ class Counter(sprite.Sprite):
     def __init__(self):
         self.killed = 0
 
-    def reset(self, player):
-        self.enemies_killed = font.render(f"Убито врагов: {self.killed}", True, (255,255,255))
+    def reset(self, player, goal):
+        global lvl_counter
+        self.enemies_killed = font.render(f"Убито врагов: {self.killed} из {goal}", True, (255,255,255))
         self.player_hp = font.render(f"Здоровье: {player.hp}", True, (255,255,255))
 
-        window.blit(self.enemies_killed, (WIN_SIZE[0] - 200, 0))
-        window.blit(self.player_hp, (WIN_SIZE[0] - 200, 30))
+        window.blit(self.enemies_killed, (WIN_SIZE[0] - 270, 0))
+        window.blit(self.player_hp, (WIN_SIZE[0] - 170, 30))
 
 #класс Explosion
 class Explosion(sprite.Sprite, Change_image, Reset):
@@ -99,19 +100,21 @@ class Block(GameObject):
 
 #класс Unit
 class Unit(GameObject):
-    def __init__(self, x, y, image_file, sprite_size, direction, speed = 2, damage = 5, hp = 15, index = 0):
+    def __init__(self, x, y, image_file, sprite_size, direction, hp, speed = 2, index = 0):
         super().__init__(image_file, sprite_size, x, y)
-        self.speed = speed
-        self.damage = damage
+        self.speed = 2
         self.hp = hp
         self.direction = direction
         self.index = 0
 
 #класс Bullet
 class Bullet(Unit):
-    def __init__(self, x, y, image_file, sprite_size, direction, bullet_type, speed = 2, damage = 5, hp = 1):
+    def __init__(self, x, y, image_file, sprite_size, direction, bullet_type, damage, speed = 4, hp = 1):
         super().__init__(x, y, image_file, sprite_size, direction, speed, damage, hp)
         self.bullet_type = bullet_type
+        self.damage = damage
+        self.speed = 5
+        self.hp = 1
 
     def movement(self):
         if self.direction == LEFT:
@@ -135,18 +138,26 @@ class Player(Unit, Animation):
         # нажатие на кнопки и движение
         keys_pressed = key.get_pressed()
         if keys_pressed[K_a] and not self.left_side.collidelistall(group):
+            music_play(move_sound, 0.5)
+            self.fire()
             self.animation(player_left)
             self.direction = LEFT
             self.rect.x -= self.speed
         elif keys_pressed[K_d] and not self.right_side.collidelistall(group):
+            music_play(move_sound, 0.5)
+            self.fire()
             self.animation(player_right)
             self.direction = RIGHT
             self.rect.x += self.speed
         elif keys_pressed[K_w] and not self.top_side.collidelistall(group):
+            music_play(move_sound, 0.5)
+            self.fire()
             self.animation(player_up)
             self.direction = UP
             self.rect.y -= self.speed
         elif keys_pressed[K_s] and not self.bottom_side.collidelistall(group):
+            music_play(move_sound, 0.5)
+            self.fire()
             self.animation(player_down)
             self.direction = DOWN
             self.rect.y += self.speed
@@ -155,14 +166,15 @@ class Player(Unit, Animation):
         global timer_for_fire
         keys_pressed = key.get_pressed()
         if keys_pressed[K_SPACE] and timer_for_fire >= 60:
+            music_play(attack_sound, 0.5)
             if self.direction == LEFT:
-                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_right, (50, 50), LEFT, FRIENDLY))
+                bullets.append(Bullet(self.rect.x, self.rect.y + SPRITE_SIZE[1] / 2 - BULLET_SIZE[1] / 2, texture_bullet_right, BULLET_SIZE, LEFT, FRIENDLY, 5))
             elif self.direction == RIGHT:
-                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_left, (50, 50), RIGHT, FRIENDLY))
+                bullets.append(Bullet(self.rect.x, self.rect.y + SPRITE_SIZE[1] / 2 - BULLET_SIZE[1] / 2, texture_bullet_left, BULLET_SIZE, RIGHT, FRIENDLY, 5))
             elif self.direction == DOWN:
-                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_down, (50, 50), DOWN, FRIENDLY))
+                bullets.append(Bullet(self.rect.x + SPRITE_SIZE[0] / 2 - BULLET_SIZE[0] / 2, self.rect.y, texture_bullet_down, BULLET_SIZE, DOWN, FRIENDLY, 5))
             elif self.direction == UP:
-                bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet, (50, 50), UP, FRIENDLY))
+                bullets.append(Bullet(self.rect.x + SPRITE_SIZE[0] / 2 - BULLET_SIZE[0] / 2, self.rect.y, texture_bullet, BULLET_SIZE, UP, FRIENDLY, 5))
             timer_for_fire = 0
         timer_for_fire += 1
              
@@ -187,15 +199,16 @@ class Basic_Enemy(Unit, Animation):
             self.rect.y += self.speed
             self.animation(images_down)
 
-    def fire(self):
+    def fire(self, damage):
+        music_play(attack_sound, 0.1)
         if self.direction == LEFT:
-            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_right, (50, 50), LEFT, NOT_FRIENDLY))
+            bullets.append(Bullet(self.rect.x, self.rect.y + SPRITE_SIZE[1] / 2 - BULLET_SIZE[1] / 2, texture_bullet_right, BULLET_SIZE, LEFT, NOT_FRIENDLY, damage))
         elif self.direction == RIGHT:
-            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_left, (50, 50), RIGHT, NOT_FRIENDLY))
+            bullets.append(Bullet(self.rect.x, self.rect.y + SPRITE_SIZE[1] / 2 - BULLET_SIZE[1] / 2, texture_bullet_left, BULLET_SIZE, RIGHT, NOT_FRIENDLY, damage))
         elif self.direction == DOWN:
-            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet_down, (50, 50), DOWN, NOT_FRIENDLY))
+            bullets.append(Bullet(self.rect.x + SPRITE_SIZE[0] / 2 - BULLET_SIZE[0] / 2, self.rect.y, texture_bullet_down, BULLET_SIZE, DOWN, NOT_FRIENDLY, damage))
         elif self.direction == UP:
-            bullets.append(Bullet(self.rect.x, self.rect.y, texture_bullet, (50, 50), UP, NOT_FRIENDLY))
+            bullets.append(Bullet(self.rect.x + SPRITE_SIZE[0] / 2 - BULLET_SIZE[0] / 2, self.rect.y, texture_bullet, BULLET_SIZE, UP, NOT_FRIENDLY, damage))
 
 #
 #       КЛАССЫ ВРАГОВ
@@ -203,8 +216,9 @@ class Basic_Enemy(Unit, Animation):
 
 # Абстрактный класс врага
 class Enemy(ABC, Basic_Enemy):
-    def __init__(self, image_file, sprite_size, x, y, direction, timer = 0, speed = 2, damage = 5, hp = 15):
+    def __init__(self, image_file, sprite_size, x, y, direction, hp, timer = 0, speed = 2, damage = 5):
         super().__init__(image_file, sprite_size, x, y, direction, speed, damage, hp)
+        self.hp = hp
         self.timer = 0
     
     @abstractmethod
@@ -221,7 +235,7 @@ class EnemySilver(Enemy):
         if self.timer == 60:
             self.direction = choice((LEFT, RIGHT))
             self.timer = 0
-            self.fire()
+            self.fire(5)
         self.timer += 1
         
 # класс врага(2 уровень)       
@@ -234,21 +248,10 @@ class EnemyGold(Enemy):
         if self.timer == 60:
             self.direction = choice((LEFT, RIGHT, UP, DOWN))
             self.timer = 0
-            self.fire()
+            self.fire(5)
         self.timer += 1
         
-# класс врага(3 уровень)      
-class EnemyDiamond(Enemy):
 
-    def movement(self, group):  
-
-        self.move(group, gold_tank_left, gold_tank_down, gold_tank_left, gold_tank_right)
-
-        if self.timer == 60:
-            self.direction = choice((LEFT, RIGHT, UP, DOWN))
-            self.timer = 0
-            self.fire()
-        self.timer += 1
 
 #
 #       ФАБРИКИ
@@ -257,26 +260,20 @@ class EnemyDiamond(Enemy):
 # Абстрактная фабрика для создания врагов
 class EnemyFactory(ABC):
     @abstractmethod
-    def create_enemy(self, image_file, sprite_size, x, y, direction):
+    def create_enemy(self, image_file, sprite_size, x, y, direction, hp):
         pass
 
 # Конкретная фабрика для создания врагов первого уровня
 class SilverEnemyFactory(EnemyFactory):
-    def create_enemy(self, image_file, sprite_size, x, y, direction):
-        return EnemySilver(image_file, sprite_size, x, y, direction)
+    def create_enemy(self, image_file, sprite_size, x, y, direction, hp):
+        return EnemySilver(image_file, sprite_size, x, y, direction, hp)
 
 # Конкретная фабрика для создания врагов второго уровня
 class GoldEnemyFactory(EnemyFactory):
-    def create_enemy(self, image_file, sprite_size, x, y, direction):
-        return EnemyGold(image_file, sprite_size, x, y, direction)
-
-# Конкретная фабрика для создания врагов третьего уровня
-class DiamondEnemyFactory(EnemyFactory):
-    def create_enemy(self, image_file, sprite_size, x, y, direction):
-        return EnemyDiamond(image_file, sprite_size, x, y, direction)
+    def create_enemy(self, image_file, sprite_size, x, y, direction, hp):
+        return EnemyGold(image_file, sprite_size, x, y, direction, hp)
     
 
 #сами фабрики
 silver_factory = SilverEnemyFactory()
 gold_factory = GoldEnemyFactory()
-diamond_factory = DiamondEnemyFactory()

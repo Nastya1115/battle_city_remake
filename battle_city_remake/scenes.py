@@ -1,13 +1,16 @@
 from map import *
 
-
 #создание кнопок
 play_button = ImageButton(WIN_SIZE[0]/2 - 100, 120, 202, 83, "", "textures/buttons/play.png")
 quit_button = ImageButton(WIN_SIZE[0]/2 - 100, 270, 202, 83, "", "textures/buttons/quit.png")
 settings_button = ImageButton(0, 0, 150, 55, "", "textures/buttons/settings.png")
-continue_button = ImageButton(250, 400, 282, 83, "", "textures/buttons/continue.png")
-exit_button = ImageButton(0, 400, 202, 83, "", "textures/buttons/exit.png")
+continue_button = ImageButton(550, 500, 282, 83, "", "textures/buttons/continue.png")
+exit_button = ImageButton(0, 500, 202, 83, "", "textures/buttons/exit.png")
+quit_button_for_game_over_and_win = ImageButton(600, 500, 200, 83, "", "textures/buttons/quit.png")
+restart_button = ImageButton(300, 500, 202, 83, "", "textures/buttons/restart.png")
 
+#silver = silver_factory.create_enemy(x, y, silver_tank_1_right, SPRITE_SIZE, RIGHT, 5)
+#gold = gold_factory.create_enemy(x, y, gold_tank_1_right, SPRITE_SIZE, RIGHT, 10)
 
 #отдельный абстрактный класс Scene
 class Scene(ABC):
@@ -43,15 +46,53 @@ class Pause(Scene):
         self.continue_button.draw(window)
         self.exit_button.draw(window)
         window.blit(game_text_font, game_text_rect)
-                            
+
+class Game_Over(Scene):
+    def __init__(self):
+        self.restart_button = restart_button
+        self.exit_button = exit_button
+        self.quit_button_for_game_over_and_win = quit_button_for_game_over_and_win
+
+    
+    def draw(self, window):
+        window.fill(GAME_SCREEN)
+        game_text_font = font.render("GAME OVER!", True, (255,0,0))
+        game_text_rect = game_text_font.get_rect(center=(WIN_SIZE[0] // 2, WIN_SIZE[1] // 2))
+        self.exit_button.draw(window)
+        self.restart_button.draw(window)
+        self.quit_button_for_game_over_and_win.draw(window)
+        window.blit(game_text_font, game_text_rect)
+      
+class Win(Scene):
+    def __init__(self):
+        self.finish_screen_win = GAME_SCREEN
+        self.exit_button = exit_button
+        self.restart_button = restart_button
+        self.quit_button_for_game_over_and_win = quit_button_for_game_over_and_win
+
+    
+    def draw(self, window):
+        window.fill(self.finish_screen_win)
+        game_text_font = font.render("YOU COMPLETED THE GAME!", True, (0,255,0))
+        game_text_rect = game_text_font.get_rect(center=(WIN_SIZE[0] // 2, WIN_SIZE[1] // 2))
+        self.exit_button.draw(window)
+        self.restart_button.draw(window)
+        self.quit_button_for_game_over_and_win.draw(window)
+        window.blit(game_text_font, game_text_rect)
+
 class Level(Scene):
-    def __init__(self, level):
+    def __init__(self, level, factories_type, goal):
         self.level = level
         self.player = None
         self.blocks = []
         self.enemies = []
+        self.factories_type = factories_type
+        self.goal = goal
         self.Map_generation(level)
-        
+
+    def factories_type_list(self, factories_type):
+        choice(factories_type)
+
     def Map_generation(self, level):
         self.counter = Counter()
         #перебор массива
@@ -62,16 +103,25 @@ class Level(Scene):
 
                 #игрок
                 if type == 'p':
-                    self.player = Player(x, y, player_1_up, SPRITE_SIZE, RIGHT)
+                    self.player = Player(x, y, player_1_right, SPRITE_SIZE, RIGHT, 20)
 
-                #враг
+                #враги - рандом
                 elif type == 'e':
-                    self.enemies.append(choice(((silver_factory.create_enemy(x, y, silver_tank_1_left, SPRITE_SIZE, RIGHT)), (gold_factory.create_enemy(x, y, gold_tank_1_up, SPRITE_SIZE, RIGHT)))))
+                    self.enemies.append(choice(self.factories_type).create_enemy(x, y, silver_tank_1_right, SPRITE_SIZE, RIGHT, 5))
 
                 #блок
                 elif type == 'b':
                     self.blocks.append(Block(x, y, texture_block, SPRITE_SIZE))
         self.enemies_count = len(self.enemies)
+
+    def reset_level(self, level):
+        self.player = None
+        self.blocks.clear()
+        self.enemies.clear()
+        bullets.clear()
+        effects.clear()
+        self.enemies_count = 0
+        self.Map_generation(level)
 
     def draw(self, window):
         window.fill(GAME_SCREEN)
@@ -83,22 +133,22 @@ class Level(Scene):
 
             #проверка на столкновение пуль с обьектами
             #проверка пули и игрока
-            if bullet.rect.colliderect(self.player) and bullet.bullet_type == NOT_FRIENDLY:
+            if bullet.rect.colliderect(self.player) and bullet.bullet_type == NOT_FRIENDLY and bullet in bullets:
                 if self.player.hp >= 1:
                     bullets.remove(bullet)
                     self.player.hp -= bullet.damage  
                 elif self.player.hp <= 0:
                     bullets.remove(bullet)
             #проверка пули и блоков
-            elif bullet.rect.collidelistall(self.blocks):
+            elif bullet.rect.collidelistall(self.blocks) and bullet in bullets:
                 bullets.remove(bullet)
             #проверка пули и врага
             for enemy in self.enemies:
-                if bullet.rect.colliderect(enemy) and bullet.bullet_type == FRIENDLY:
+                if bullet.rect.colliderect(enemy) and bullet.bullet_type == FRIENDLY and bullet in bullets:
                     if enemy.hp >= 1:
                         bullets.remove(bullet)
                         enemy.hp -= bullet.damage
-                    elif enemy.hp <= 0:
+                    elif enemy.hp <= 0 and enemy in self.enemies:
                         bullets.remove(bullet)
                         self.enemies.remove(enemy)
                         self.counter.killed += 1
@@ -121,23 +171,28 @@ class Level(Scene):
             y = randint(0, WIN_SIZE[1]  - SPRITE_SIZE[1])
             help_rect = Rect(x, y, SPRITE_SIZE[0], SPRITE_SIZE[1])
             if len(self.enemies) < self.enemies_count and not help_rect.collidelistall(self.blocks):
-                self.enemies.append(choice(((silver_factory.create_enemy(x, y, silver_tank_1_left, SPRITE_SIZE, RIGHT)), (gold_factory.create_enemy(x, y, gold_tank_1_up, SPRITE_SIZE, RIGHT)))))
+                self.enemies.append(choice(self.factories_type).create_enemy(x, y, silver_tank_1_right, SPRITE_SIZE, RIGHT, 5))
             block.reset()
 
         for effect in effects:
             effect.reset()
             effect.animation()
             
-        self.counter.reset(self.player)
+        self.counter.reset(self.player, self.goal)
         settings_button.draw(window)
+
+
 
 
 menu = Menu()
 pause = Pause()
-level1 = Level(level_1)
-level2 = Level(level_2)
+win = Win()
+game_over = Game_Over()
+level1 = Level(level_1, [silver_factory], 5)
+level2 = Level(level_2, [silver_factory, gold_factory], 10)
 
 current_scene = 0
-current_map = 2
-maps = [level1, level2]
-scenes = [menu, pause, level1, level2]
+current_map = 4
+lvls = [level1, level2]
+maps = [level_1, level_2]
+scenes = [menu, pause, win, game_over, level1, level2]

@@ -2,6 +2,7 @@
 import logging
 from pygame import *
 from textures import *
+from sounds import *
 from random import choice, randint
 from abc import ABC, abstractmethod
 import unittest
@@ -16,10 +17,10 @@ font.init()
 clock = time.Clock()
 
 #музыка
-def music_play(music_file, duration):
-    mixer.music.load(music_file)
-    mixer.music.set_volume(0.1)
-    mixer.music.play(duration)
+def music_play(music_file, volume):
+    sound = mixer.Sound(music_file)
+    sound.set_volume(volume)
+    sound.play()
 
 #логги
 open('battle_city.log', 'w').close()
@@ -29,17 +30,19 @@ logging.basicConfig(filename='battle_city.log', level=logging.INFO)
 game_run = True
 bullets = list()
 timer_for_fire = 0
+lvl_counter = 0
 
 #
 effects = []
 
 #настройки
-WIN_SIZE = (500, 500)
+WIN_SIZE = (800, 600)
 FPS = 120
 
 #константы
 PIXEL = 50
 SPRITE_SIZE = (50, 50)
+BULLET_SIZE = (25, 25)
 ROWS, COLS = WIN_SIZE[0] / PIXEL, WIN_SIZE[1] / PIXEL
 FRIENDLY = 'players'
 NOT_FRIENDLY = 'enemys'
