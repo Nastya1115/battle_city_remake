@@ -13,6 +13,7 @@ restart_button = ImageButton(300, 500, 202, 83, "", "textures/buttons/replay.png
 # создание фона
 main_fon = transform.scale(image.load("textures/fons/play_1.png"), (250,250))
 game_over_fon = transform.scale(image.load("textures/fons/game_over_fon.png"), (250,250))
+win_fon = transform.scale(image.load("textures/fons/win_fon.png"), (250,250))
 
 
 #отдельный абстрактный класс Scene
@@ -76,13 +77,11 @@ class Win(Scene):
     
     def draw(self, window):
         window.fill(self.finish_screen_win)
+        window.blit(win_fon, (300,100))
         music_play(default_sound, 0.1)
-        game_text_font = font.render("YOU COMPLETED THE GAME!", True, (0,255,0))
-        game_text_rect = game_text_font.get_rect(center=(WIN_SIZE[0] // 2, WIN_SIZE[1] // 2))
         self.exit_button.draw(window)
         self.restart_button.draw(window)
         self.quit_button_for_game_over_and_win.draw(window)
-        window.blit(game_text_font, game_text_rect)
 
 class Level(Scene):
     def __init__(self, level, factories_type, goal):
@@ -108,6 +107,7 @@ class Level(Scene):
                 #игрок
                 if type == 'p':
                     self.player = Player(x, y, player_1_right, SPRITE_SIZE, RIGHT, 20)
+                    logging.info('Player created')
 
                 #враги - рандом
                 elif type == 'e':

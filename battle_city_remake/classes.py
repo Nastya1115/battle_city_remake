@@ -65,7 +65,6 @@ class Explosion(sprite.Sprite, Change_image, Reset):
 class GameObject(sprite.Sprite, Reset):
     def __init__(self, image_file, sprite_size, x, y):
         super().__init__()
-        logging.info('Unit created')
         self.sprite_size = sprite_size
         self.image = transform.scale(image.load(image_file), self.sprite_size)
         self.rect = self.image.get_rect()
@@ -75,6 +74,7 @@ class GameObject(sprite.Sprite, Reset):
 #класс ImageButton
 class ImageButton():
     def __init__(self, x, y, width, height, text, image_path):
+        logging.info('Button created')
         self.x = x
         self.y = y
         self.width = width
@@ -91,6 +91,7 @@ class ImageButton():
 #класс Block
 class Block(GameObject):
     def __init__(self, x, y, image_file, sprite_size, hp = 10):
+        logging.info('Block created')
         super().__init__(image_file, sprite_size, x, y)
         self.hp = hp
 
@@ -111,6 +112,7 @@ class Unit(GameObject):
 class Bullet(Unit):
     def __init__(self, x, y, image_file, sprite_size, direction, bullet_type, damage, speed = 4, hp = 1):
         super().__init__(x, y, image_file, sprite_size, direction, speed, damage, hp)
+        logging.info('Bullet created')
         self.bullet_type = bullet_type
         self.damage = damage
         self.speed = 5
@@ -138,24 +140,28 @@ class Player(Unit, Animation):
         # нажатие на кнопки и движение
         keys_pressed = key.get_pressed()
         if keys_pressed[K_a] and not self.left_side.collidelistall(group):
+            logging.info('Player moved left')
             music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_left)
             self.direction = LEFT
             self.rect.x -= self.speed
         elif keys_pressed[K_d] and not self.right_side.collidelistall(group):
+            logging.info('Player moved right')
             music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_right)
             self.direction = RIGHT
             self.rect.x += self.speed
         elif keys_pressed[K_w] and not self.top_side.collidelistall(group):
+            logging.info('Player moved up')
             music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_up)
             self.direction = UP
             self.rect.y -= self.speed
         elif keys_pressed[K_s] and not self.bottom_side.collidelistall(group):
+            logging.info('Player moved down')
             music_play(move_sound, 0.09)
             self.fire()
             self.animation(player_down)
@@ -166,6 +172,7 @@ class Player(Unit, Animation):
         global timer_for_fire
         keys_pressed = key.get_pressed()
         if keys_pressed[K_SPACE] and timer_for_fire >= 60:
+            logging.info('Player attacked')
             music_play(attack_sound, 0.5)
             if self.direction == LEFT:
                 bullets.append(Bullet(self.rect.x, self.rect.y + SPRITE_SIZE[1] / 2 - BULLET_SIZE[1] / 2, texture_bullet_right, BULLET_SIZE, LEFT, FRIENDLY, 5))
@@ -187,19 +194,24 @@ class Basic_Enemy(Unit, Animation):
         self.bottom_side = Rect(self.rect.left, self.rect.bottom, self.rect.width, 1)
 
         if self.direction == LEFT and not self.left_side.collidelistall(group):
+            logging.info('Enemy moved left')
             self.rect.x -= self.speed
             self.animation(images_left)
         elif self.direction == RIGHT and not self.right_side.collidelistall(group):
+            logging.info('Enemy moved right')
             self.rect.x += self.speed
             self.animation(images_right)
         elif self.direction == UP and not self.top_side.collidelistall(group):
+            logging.info('Enemy moved up')
             self.rect.y -= self.speed
             self.animation(images_up)
         elif self.direction == DOWN and not self.bottom_side.collidelistall(group):
+            logging.info('Enemy moved down')
             self.rect.y += self.speed
             self.animation(images_down)
 
     def fire(self, damage):
+        logging.info('Enemy attacked')
         if self.direction == LEFT:
             bullets.append(Bullet(self.rect.x, self.rect.y + SPRITE_SIZE[1] / 2 - BULLET_SIZE[1] / 2, texture_bullet_right, BULLET_SIZE, LEFT, NOT_FRIENDLY, damage))
         elif self.direction == RIGHT:
@@ -265,11 +277,13 @@ class EnemyFactory(ABC):
 # Конкретная фабрика для создания врагов первого уровня
 class SilverEnemyFactory(EnemyFactory):
     def create_enemy(self, image_file, sprite_size, x, y, direction, hp):
+        logging.info('Silver enemy created')
         return EnemySilver(image_file, sprite_size, x, y, direction, hp)
 
 # Конкретная фабрика для создания врагов второго уровня
 class GoldEnemyFactory(EnemyFactory):
     def create_enemy(self, image_file, sprite_size, x, y, direction, hp):
+        logging.info('Golden enemy created')
         return EnemyGold(image_file, sprite_size, x, y, direction, hp)
     
 
